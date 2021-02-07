@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>First spring boot page</title>
+<title>healthcheck</title>
 </head>
 <body>
-	<form action="save">
+	<!-- <form action="save">
 		Input Cars Id : <input type="text" name="id"><br>
 		<br> Input Cars Name: <input type="text" name="name"><br>
 		<br> Input Cars Owner : <input type="text" name="owner"><br>
@@ -24,6 +24,7 @@
 	<form action="searchCar" method="get">
 		Input Cars Id : <input type="text" name="id"><br>
 		<br> <input type="submit" name="submit"><br>
-	</form>
+	</form> -->
+	<h1>Backend is up and running!!</h1>
 </body>
 </html>
