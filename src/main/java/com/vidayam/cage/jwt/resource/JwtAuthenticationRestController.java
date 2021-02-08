@@ -25,7 +25,7 @@ import com.vidayam.cage.jwt.JwtTokenUtil;
 import com.vidayam.cage.jwt.JwtUserDetails;
 
 @RestController
-//@CrossOrigin(origins= {"http://localhost:4200","http://18.220.137.160"})
+@CrossOrigin(origins= "*")
 public class JwtAuthenticationRestController {
 
   @Value("${jwt.http.request.header}")
