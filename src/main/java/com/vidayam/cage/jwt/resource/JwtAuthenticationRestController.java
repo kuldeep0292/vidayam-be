@@ -41,7 +41,7 @@ public class JwtAuthenticationRestController {
 	@Autowired
 	private UserDetailsService jwtInMemoryUserDetailsService;
 	
-	@RequestMapping(value = "/authenticate", method = RequestMethod.OPTIONS)
+	@RequestMapping(value = "${jwt.get.token.uri}", method = RequestMethod.OPTIONS)
 	public void corsHeaders(HttpServletResponse response) {
 		response.addHeader("Access-Control-Allow-Origin", "*");
 		response.addHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
